@@ -3,6 +3,7 @@ STEPS to follow to parse bank statement of SBI:
 For State Bank of India
 1)Create virtual environment
   python3 -m venv <myenvname>
+  
 2)activate virtual environment
   source <myenvname>/bin/activate
   
@@ -28,9 +29,13 @@ cd bank
 
 1) To upload pdf file (Sample file-- kk.pdf)
 http://127.0.0.1:8000/upload/
+
 2) To view the statement(sample name-- Mr. KRISHNA KUNAL)
 http://127.0.0.1:8000/view/
+
 3) Admin panel
 http://127.0.0.1:8000/admin/
+
 Username-krish
+
 Password-kk2357
