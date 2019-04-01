@@ -6,21 +6,25 @@ For State Bank of India
 2)activate virtual environment
   source <myenvname>/bin/activate
   
-3)change directory to bank
+3)clone the repo to your system
+git pull https://github.com/krish-kunal/task.git
 
-4)install all requirements using given command
+4)change diretory to bank
+cd bank
+
+5)install all requirements using given command
   pip install -r requirements.txt
 
-5)make sure to run makemigrations: Create the migrations (generate the SQLcommands).
+6)make sure to run makemigrations: Create the migrations (generate the SQLcommands).
   python manage.py makemigrations
  
-6) make sure to run migrate:Run the migrations (execute the SQL commands)
+7) make sure to run migrate:Run the migrations (execute the SQL commands)
   python manage.py migrate
 
-7) start the server
+8) start the server
   python manage.py runserver
 
-8) API endpoints:
+9) API endpoints:
 
 1) To upload pdf file (Sample file-- kk.pdf)
 http://127.0.0.1:8000/upload/
