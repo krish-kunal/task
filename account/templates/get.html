@@ -1,0 +1,8 @@
+{% block content %}
+  <form method="post" enctype="multipart/form-data">
+  <b>Enter your full name as in bank statement with prefix and take care of case(case sensitive) Ex- Mr. KRISHNA KUNAL</b>
+    {% csrf_token %}
+    <input type="text" name="name">
+    <button type="submit">Submit</button>
+  </form>
+{% endblock %}
