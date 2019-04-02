@@ -1,11 +1,12 @@
 STEPS to follow to parse bank statement of SBI:
 
 For State Bank of India
+
 1)Create virtual environment
-  python3 -m venv <myenvname>
+  python3 -m venv myenvname
   
 2)activate virtual environment
-  source <myenvname>/bin/activate
+  source myenvname/bin/activate
   
 3)clone the repo to your system
 git pull https://github.com/krish-kunal/task.git
