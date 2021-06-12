@@ -34,9 +34,3 @@ For State Bank of India
   2.To view the statement(sample name-- Mr. KRISHNA KUNAL)--
   http://127.0.0.1:8000/view/
 
-  3.Admin panel--
-   http://127.0.0.1:8000/admin/
-
-  Username-krish
-
-  Password-kk2357
