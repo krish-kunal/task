@@ -4,7 +4,7 @@ distro==1.4.0
 Django==2.1.7
 get==2019.3.22
 idna==2.8
-numpy==1.16.2
+numpy==1.22.0
 pandas==0.24.2
 pika==0.13.0
 post==2019.3.22
